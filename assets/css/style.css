@@ -1,0 +1,103 @@
+/*!
+ * Template Name/Project Name: KidKinder
+ * Developer Name: Ripon Hossain Shuvo
+ * Conatct: rhshuvo44@gmail.com
+ * Visit: https://abc.info
+ */
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap");
+/* common css  */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Handlee", cursive;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container-fuild {
+  width: 100vw;
+  margin: 0 auto;
+  height: 100%;
+  clear: both;
+}
+.container {
+  width: 95vw;
+  margin: 0 auto;
+  height: 100%;
+  clear: both;
+}
+.container-sm {
+  width: 88vw;
+  margin: 0 auto;
+  height: 100%;
+  clear: both;
+}
+.float-start {
+  float: left;
+}
+/* header css start   */
+/* header {
+  height: 80px;
+} */
+.logo {
+  width: 25%;
+  height: 100%;
+}
+
+.logo span,
+.fa-biohazard {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+}
+.logo span {
+  color: #17a2b8;
+}
+.menu {
+  width: 75%;
+  height: 100%;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 0px 20px;
+  display: block;
+  line-height: 5;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.menu ul li a:hover,
+.menu ul li .active {
+  color: #17a2b8;
+}
+.menu ul li:last-child {
+  margin-left: 12%;
+}
+.menu ul li:last-child a {
+  color: white;
+  background-color: #17a2b8;
+  border-radius: 10px;
+  line-height: 2;
+}
+
+/* header css end   */
