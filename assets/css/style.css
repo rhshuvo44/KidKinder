@@ -136,7 +136,7 @@ img {
   font-weight: 400;
   line-height: 24px;
   border-radius: 30px;
-  background-color: #001D29;
+  background-color: #001d29;
   padding: 15px 40px;
   margin-top: 30px;
   display: inline-block;
@@ -147,3 +147,39 @@ img {
 }
 
 /* banner css end   */
+/* service css start   */
+.service {
+  padding-bottom: 50px;
+}
+.service-box {
+  width: 30%;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border-top: 1px solid #dee2e6;
+  padding: 30px;
+  margin: 0 0 20px 20px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.box-icon {
+  width: 20%;
+  color: #17a2b8;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+}
+.box-info {
+  width: 80%;
+}
+.box-info h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #00394f;
+}
+.box-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+}
+/* service css end   */
