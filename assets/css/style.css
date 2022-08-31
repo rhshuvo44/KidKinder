@@ -53,6 +53,20 @@ img {
   height: 100%;
   display: block;
 }
+.mt-20 {
+  margin-top: 20px;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mx-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.clear-both {
+  clear: both;
+}
 /* header css start   */
 .logo {
   width: 25%;
@@ -149,7 +163,8 @@ img {
 /* banner css end   */
 /* service css start   */
 .service {
-  padding-bottom: 50px;
+  padding: 60px 0px;
+  height: 500px;
 }
 .service-box {
   width: 30%;
@@ -157,7 +172,6 @@ img {
   border-radius: 5px;
   border-top: 1px solid #dee2e6;
   padding: 30px;
-  margin: 0 0 20px 20px;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 .box-icon {
@@ -183,3 +197,91 @@ img {
   color: #666666;
 }
 /* service css end   */
+/* About css start   */
+.about {
+  height: 650px;
+}
+.about .about-poster {
+  width: 40%;
+  padding: 30px 0px;
+  margin-right: 3%;
+}
+.about .about-poster img {
+  border-radius: 10px;
+}
+.about .about-content {
+  width: 57%;
+  padding: 90px 0px;
+}
+.about .about-content h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  color: #17a2b8;
+}
+.about .about-content h4::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  border: 1px solid #17a2b8;
+  top: 10px;
+  margin-left: 5px;
+}
+.about .about-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #00394f;
+}
+.about .about-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+.about .about-content a {
+  color: white;
+  background-color: #17a2b8;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.about .about-content a:hover {
+  background-color: #147888;
+}
+.about .about-content .about-content-inner {
+  height: 135px;
+}
+.about .about-content .about-content-inner-img {
+  width: 30%;
+}
+.about .about-content .about-content-inner-img img {
+  border-radius: 10px;
+}
+.about .about-content .about-content-inner-info {
+  width: 67%;
+  margin-left: 3%;
+}
+.about .about-content .about-content-inner-info ul li {
+  list-style: none;
+  padding: 10px 0px;
+  border-bottom: 1px solid #dee2e6;
+}
+.about .about-content .about-content-inner-info ul li i {
+  margin-right: 10px;
+  color: #17a2b8;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 900;
+}
+.about .about-content .about-content-inner-info ul li:first-child {
+  border-top: 1px solid #dee2e6;
+}
+/* About css end   */
