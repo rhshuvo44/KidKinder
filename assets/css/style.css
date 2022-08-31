@@ -20,6 +20,12 @@ h5,
 h6 {
   font-family: "Handlee", cursive;
 }
+th {
+  text-align: right;
+}
+td {
+  text-align: left;
+}
 body {
   font-family: "Nunito", sans-serif;
   overflow-x: hidden;
@@ -56,9 +62,25 @@ img {
 .mt-20 {
   margin-top: 20px;
 }
+.mb-10 {
+  margin-bottom: 10px;
+}
+.bb {
+  border-bottom: 1px solid #dee2e6;
+}
+.br {
+  border-right: 1px solid #dee2e6;
+}
+.p-10 {
+  padding: 10px;
+}
 .my-20 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .mx-20 {
   margin-left: 20px;
@@ -66,6 +88,24 @@ img {
 }
 .clear-both {
   clear: both;
+}
+.text-center {
+  text-align: center;
+}
+.btn-primary {
+  color: white;
+  background-color: #17a2b8;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-primary:hover {
+  background-color: #147888;
 }
 /* header css start   */
 .logo {
@@ -224,7 +264,7 @@ img {
 .about .about-content h4::after {
   content: "";
   position: absolute;
-  width: 80px;
+  width: 40px;
   border: 1px solid #17a2b8;
   top: 10px;
   margin-left: 5px;
@@ -240,21 +280,6 @@ img {
   font-weight: 400;
   line-height: 24px;
   color: #666666;
-}
-.about .about-content a {
-  color: white;
-  background-color: #17a2b8;
-  border-radius: 25px;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: capitalize;
-  padding: 10px 30px;
-  display: inline-block;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.about .about-content a:hover {
-  background-color: #147888;
 }
 .about .about-content .about-content-inner {
   height: 135px;
@@ -285,3 +310,62 @@ img {
   border-top: 1px solid #dee2e6;
 }
 /* About css end   */
+/* classes css start   */
+.classes h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  color: #17a2b8;
+}
+.classes h4::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  border: 1px solid #17a2b8;
+  top: 10px;
+  margin-left: 5px;
+}
+.classes h4::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  border: 1px solid #17a2b8;
+  top: 10px;
+  left: 480px;
+}
+.classes h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #00394f;
+}
+.classes-box {
+  width: 30%;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  background: #f8f9fa;
+  border-radius:0 0 5px 5px;
+}
+.classes-box h2{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #00394f;
+}
+.classes-box p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+}
+.classes-box img{
+  border-radius: 5px 5px 0 0;
+}
+.classes-table {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+/* classes css end   */
