@@ -74,6 +74,9 @@ img {
 .p-10 {
   padding: 10px;
 }
+.p-50{
+  padding-top: 50px;
+}
 .my-20 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -433,3 +436,30 @@ img {
 }
 
 /* blog css end   */
+/* footer css start   */
+footer{
+  background: #00394F;
+  padding: 60px 0px;
+}
+
+/* footer bottom */
+.footer-bottom p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-bottom p a{
+  color: #17a2b8;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+
+}
+.footer-bottom p a:hover{
+  color: #0f6674;
+  text-decoration: underline;
+}
+/* footer css end   */
+
