@@ -74,7 +74,7 @@ img {
 .p-10 {
   padding: 10px;
 }
-.p-50{
+.p-50 {
   padding-top: 50px;
 }
 .my-20 {
@@ -437,29 +437,167 @@ img {
 
 /* blog css end   */
 /* footer css start   */
-footer{
-  background: #00394F;
+footer {
+  background: #00394f;
   padding: 60px 0px;
 }
+.footer-top{
+  height: 400px;
+}
+.footer-logo {
+  width: 25%;
+}
+.footer-logo h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 40px;
+  cursor: pointer;
+  display: inline-block;
+}
+.footer-logo p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 20px 10px;
+}
+.footer-logo ul li {
+  list-style: none;
+  color: #17a2b8;
+  border-radius: 50%;
+  padding: 10px 15px;
+  display: inline-block;
+  border: 1px solid #17a2b8;
+  transition: .5s;
+}
+.footer-logo ul li:hover {
+  background: #17a2b8;
+  color: #fff;
+}
 
+.footer-logo .fa-biohazard {
+  font-size: 40px;
+  color: #147888;
+  font-weight: 700;
+  line-height: 40px;
+}
+.get-in-touch {
+  width: 25%;
+}
+.get-in-touch h2 {
+  color: #17a2b8;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+}
+.get-in-touch .get-info {
+  padding-top: 25px;
+}
+.get-in-touch .get-info h5 {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 15px 0px;
+  color: #fff;
+  font-weight: 700;
+}
+.get-in-touch .get-info i {
+  margin-right: 10px;
+  color: #17a2b8;
+}
+.get-in-touch .get-info p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 30px;
+}
+.quick-links {
+  width: 25%;
+}
+.quick-links .link {
+  padding-top: 25px;
+}
+.quick-links .link ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.quick-links .link ul li i {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+}
+.quick-links .link ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #fff;
+  transition: .5s;
+}
+.quick-links .link ul li a:hover {
+  text-decoration: underline;
+}
+.quick-links h2 {
+  color: #17a2b8;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+}
+.newsletter {
+  width: 25%;
+}
+.newsletter form {
+  padding: 25px 0;
+}
+.newsletter h2 {
+  color: #17a2b8;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+}
+.newsletter form input{
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  
+}
+.newsletter form .submit-btn{
+  border-radius: 30px;
+  background: #17a2b8;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  transition: .5s;
+  
+}
+.newsletter form .submit-btn:hover{
+  background: #0f6674;
+  
+}
 /* footer bottom */
-.footer-bottom p{
+.footer-bottom{
+  border-top: 1px solid rgba(23,162,184,.2);
+}
+.footer-bottom p {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
-.footer-bottom p a{
+.footer-bottom p a {
   color: #17a2b8;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   text-transform: capitalize;
-
 }
-.footer-bottom p a:hover{
+.footer-bottom p a:hover {
   color: #0f6674;
   text-decoration: underline;
 }
 /* footer css end   */
-
